@@ -1,0 +1,26 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/cli:
+    dependencies:
+      '@texture/core':
+        specifier: workspace:*
+        version: link:../core
+      '@texture/runner':
+        specifier: workspace:*
+        version: link:../runner
+
+  packages/core: {}
+
+  packages/runner:
+    dependencies:
+      '@texture/core':
+        specifier: workspace:*
+        version: link:../core
