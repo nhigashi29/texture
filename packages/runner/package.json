@@ -1,11 +1,14 @@
 {
-  "name": "@texture/runner",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "main": "src/index.ts",
-  "dependencies": {
-    "@texture/core": "workspace:*"
-  },
-  "scripts": {}
+	"name": "@texture/runner",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"main": "src/index.ts",
+	"dependencies": {
+		"@mariozechner/pi-agent-core": "^0.63.1",
+		"@mariozechner/pi-ai": "^0.63.1",
+		"@texture/core": "workspace:*",
+		"uuid": "^13.0.0"
+	},
+	"scripts": {}
 }

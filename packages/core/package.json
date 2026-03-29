@@ -1,8 +1,12 @@
 {
-  "name": "@texture/core",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "main": "src/index.ts",
-  "scripts": {}
+	"name": "@texture/core",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"main": "src/index.ts",
+	"scripts": {},
+	"dependencies": {
+		"ts-pattern": "^5.9.0",
+		"uuid": "^13.0.0"
+	}
 }
